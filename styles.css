@@ -1,0 +1,240 @@
+/*Body*/
+:root{
+    --border: 2px solid Black;
+    --backColor: gray;
+    --backColorHover: rgb(86, 86, 86);
+    --backColorTable: rgb(206, 206, 206);
+}
+*{
+    user-select: none;
+}
+body{
+    height: 100%;
+    width: 100%;
+}
+.amount{
+    position: absolute;
+    font-size: 2rem;
+    font-weight: bold;
+    left: 37%;
+    top: 85%;
+}
+.btn {
+    position: absolute;
+    top: 20px;
+    right: 25px;
+    color: black;
+    padding: 5px 10px;
+    box-shadow: -3px -3px black;
+    background-color: var(--backColor);
+    border-radius: 10px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    font-size: 1.5rem;
+ 
+    &:hover,
+    &:focus,
+    &:focus-visible,
+    &:focus-within {
+       background-color: var(--backColorHover);
+    }
+ }
+ .btnLeft {
+    position: absolute;
+    top: 20px;
+    left: 25px;
+    color: black;
+    padding: 5px 10px;
+    box-shadow: -3px -3px black;
+    background-color: var(--backColor);
+    border-radius: 10px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    font-size: 1.5rem;
+ 
+    &:hover,
+    &:focus,
+    &:focus-visible,
+    &:focus-within {
+       background-color: var(--backColorHover);
+    }
+ }
+ .artBtn{
+    position: relative;
+    color: black;
+    top: 100px;
+    height: 300px;
+    width: 300px;
+    padding: 5px 10px;
+    text-align: center;
+    box-shadow: -3px -3px black;
+    background-color: var(--backColor);
+    border-radius: 10px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    font-size: 2.5rem;
+ 
+    &:hover,
+    &:focus,
+    &:focus-visible,
+    &:focus-within {
+       background-color: var(--backColorHover);
+    }
+ }
+.box{
+    display:flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.imgBox{
+    display:flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+    & img{
+        border: var(--border);
+    }
+}
+img{
+    height: 160px;
+}
+h1{
+    color: black;
+    text-decoration: none;
+    text-align: center;
+}
+h3{
+    display: block;
+    text-align: center;
+    color: black;
+}
+p{
+    font-size: 5em;
+}
+a{
+    text-decoration: none;
+
+    & .description{
+        width: 100%;
+        text-align: center;
+        color: black;
+        text-decoration: none;
+    }
+}
+/*Galerry*/
+.gallery{
+    height: 210px;
+    border: var(--border);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: filter 0.3s ease;
+}
+.gallery .description{
+    list-style-type: none;
+    padding-block: 10px;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+}
+.gallery:hover{
+    filter: brightness(1.1);
+}
+/*Images*/
+#qrCodeImg{
+    height: 400px;
+    border: none;
+}
+/*Dropdown*/
+#settingLogo{
+    position: absolute;
+    display: block;
+    height: 55px;
+    top: 5%;
+    right: 2.5%;
+
+    &:hover,
+    &:focus {
+        filter: brightness(0.9);
+    }
+}
+.dropdownMenu{
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    height: 300px;
+    top: 8%;
+    right: 0px;
+    aspect-ratio: 2/3;
+    border-radius: 3px;
+    font-size: 20px;
+    padding: 30px;
+}
+li{
+    list-style: none;
+    text-decoration: none;
+    background-color: var(--backColor);
+    border: var(--border);
+    text-align: center;
+    color: black;
+
+    &:hover,
+    &:focus{
+        background-color: var(--backColorHover);
+    }
+}
+input{
+    display: none;
+}
+input:checked ~ ul{
+    display: flex;
+}
+/*Tables*/
+.tableTop{
+    position: absolute;
+    background-color: black;
+    text-align: center;
+    top: 45%;
+}
+.tableTop th{
+    background-color: var(--backColorTable);
+    padding: 5px;
+    
+}
+.tableTop td{
+    background-color: var(--backColorTable);
+    padding: 5px;
+    
+}
+.tableMiddle{
+    position: absolute;
+    background-color: black;
+    text-align: center;
+    top: 60%;
+}
+.tableMiddle th{
+    background-color: var(--backColorTable);
+    padding: 5px;
+}
+.tableMiddle td{
+    background-color: var(--backColorTable);
+    padding: 5px;
+}
+.tableBottom{
+    position: absolute;
+    background-color: black;
+    text-align: center;
+    top: 75%;
+}
+.tableBottom th{
+    background-color: var(--backColorTable);
+    padding: 5px;
+}
+.tableBottom td{
+    background-color: var(--backColorTable);
+    padding: 5px;
+}
