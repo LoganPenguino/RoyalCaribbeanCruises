@@ -1,6 +1,6 @@
 /*Body*/
 :root{
-    --border: 2px solid Black;
+    --galleryBorder: 2px solid Black;
     --backColor: gray;
     --backColorHover: rgb(86, 86, 86);
     --backColorTable: rgb(206, 206, 206);
@@ -100,9 +100,6 @@ body{
         border: var(--border);
     }
 }
-img{
-    height: 160px;
-}
 h1{
     color: black;
     text-decoration: none;
@@ -112,6 +109,9 @@ h3{
     display: block;
     text-align: center;
     color: black;
+}
+img{
+    height: 160px;
 }
 p{
     font-size: 5em;
@@ -126,10 +126,10 @@ a{
         text-decoration: none;
     }
 }
-/*Galerry*/
+/*Gallery*/
 .gallery{
     height: 210px;
-    border: var(--border);
+    border: var(--galleryBorder);
     border-radius: 5px;
     cursor: pointer;
     transition: filter 0.3s ease;
@@ -153,7 +153,7 @@ a{
 #settingLogo{
     position: absolute;
     display: block;
-    height: 55px;
+    height: 9%;
     top: 5%;
     right: 2.5%;
 
@@ -166,12 +166,12 @@ a{
     display: none;
     flex-direction: column;
     position: absolute;
-    height: 300px;
+    width: 15%;
     top: 8%;
     right: 0px;
     aspect-ratio: 2/3;
     border-radius: 3px;
-    font-size: 20px;
+    font-size: 1.4rem;
     padding: 30px;
 }
 li{
