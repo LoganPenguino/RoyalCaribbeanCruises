@@ -1,6 +1,6 @@
 /*Body*/
 :root{
-    --galleryBorder: 2px solid Black;
+    --normalBorder: 2px solid Black;
     --backColor: gray;
     --backColorHover: rgb(86, 86, 86);
     --backColorTable: rgb(206, 206, 206);
@@ -14,15 +14,10 @@ body{
 }
 .amount{
     position: absolute;
-    font-size: 2rem;
     font-weight: bold;
-    left: 37%;
-    top: 85%;
 }
 .btn {
     position: absolute;
-    top: 20px;
-    right: 25px;
     color: black;
     padding: 5px 10px;
     box-shadow: -3px -3px black;
@@ -31,7 +26,6 @@ body{
     text-decoration: none;
     cursor: pointer;
     transition: all 0.5s ease;
-    font-size: 1.5rem;
  
     &:hover,
     &:focus,
@@ -42,8 +36,6 @@ body{
  }
  .btnLeft {
     position: absolute;
-    top: 20px;
-    left: 25px;
     color: black;
     padding: 5px 10px;
     box-shadow: -3px -3px black;
@@ -52,7 +44,6 @@ body{
     text-decoration: none;
     cursor: pointer;
     transition: all 0.5s ease;
-    font-size: 1.5rem;
  
     &:hover,
     &:focus,
@@ -64,9 +55,6 @@ body{
  .artBtn{
     position: relative;
     color: black;
-    top: 100px;
-    height: 300px;
-    width: 300px;
     padding: 5px 10px;
     text-align: center;
     box-shadow: -3px -3px black;
@@ -75,7 +63,6 @@ body{
     text-decoration: none;
     cursor: pointer;
     transition: all 0.5s ease;
-    font-size: 2.5rem;
  
     &:hover,
     &:focus,
@@ -90,16 +77,6 @@ body{
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
-.imgBox{
-    display:flex;
-    gap: 1rem;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-
-    & img{
-        border: var(--border);
-    }
-}
 h1{
     color: black;
     text-decoration: none;
@@ -110,17 +87,16 @@ h3{
     text-align: center;
     color: black;
 }
-img{
-    height: 160px;
+.gallery img{
+    border: none;
 }
-p{
-    font-size: 5em;
+img{
+    border: var(--normalBorder);
 }
 a{
     text-decoration: none;
 
     & .description{
-        width: 100%;
         text-align: center;
         color: black;
         text-decoration: none;
@@ -128,11 +104,15 @@ a{
 }
 /*Gallery*/
 .gallery{
-    height: 210px;
-    border: var(--galleryBorder);
+    width: fit-content;
+    border: var(--normalBorder);
     border-radius: 5px;
     cursor: pointer;
     transition: filter 0.3s ease;
+
+    &:img{
+        border: none;
+    }
 }
 .gallery .description{
     list-style-type: none;
@@ -146,16 +126,13 @@ a{
 }
 /*Images*/
 #qrCodeImg{
-    height: 400px;
     border: none;
 }
 /*Dropdown*/
 #settingLogo{
     position: absolute;
     display: block;
-    height: 9%;
-    top: 5%;
-    right: 2.5%;
+    border: none;
 
     &:hover,
     &:focus {
@@ -166,19 +143,27 @@ a{
     display: none;
     flex-direction: column;
     position: absolute;
-    width: 15%;
-    top: 8%;
-    right: 0px;
-    aspect-ratio: 2/3;
-    border-radius: 3px;
-    font-size: 1.4rem;
     padding: 30px;
+}
+.topLi{
+    list-style: none;
+    text-decoration: none;
+    background-color: var(--backColor);
+    border: var(--normalBorder);
+    text-align: center;
+    color: black;
+
+    &:hover,
+    &:focus{
+        background-color: var(--backColorHover);
+    }
 }
 li{
     list-style: none;
     text-decoration: none;
     background-color: var(--backColor);
-    border: var(--border);
+    border: var(--normalBorder);
+    border-top: none;
     text-align: center;
     color: black;
 
@@ -198,7 +183,6 @@ input:checked ~ ul{
     position: absolute;
     background-color: black;
     text-align: center;
-    top: 45%;
 }
 .tableTop th{
     background-color: var(--backColorTable);
@@ -214,7 +198,6 @@ input:checked ~ ul{
     position: absolute;
     background-color: black;
     text-align: center;
-    top: 60%;
 }
 .tableMiddle th{
     background-color: var(--backColorTable);
@@ -228,7 +211,6 @@ input:checked ~ ul{
     position: absolute;
     background-color: black;
     text-align: center;
-    top: 75%;
 }
 .tableBottom th{
     background-color: var(--backColorTable);
@@ -237,4 +219,362 @@ input:checked ~ ul{
 .tableBottom td{
     background-color: var(--backColorTable);
     padding: 5px;
+}
+@media(min-width: 1536px){
+  body{
+      min-width: 1536px;
+  }
+}
+@media(max-width: 1536px){
+  /*Body*/
+  body{
+      max-width: 1536px;
+  }
+  h1{
+    font-size: 5vh;
+  }
+  p{
+    font-size: 5em;
+  }
+  .btn {
+    top: 20px;
+    right: 25px;
+    font-size: 4vh;
+  }
+  .btnLeft {
+    top: 20px;
+    left: 25px;
+    font-size: 4vh;
+  }
+  .artBtn{
+    top: 200px;
+    font-size: 7vh;
+  }
+  /*Dropdown menu*/
+  #settingLogo{
+    height: 9%;
+    top: 5%;
+    right: 2.5%;
+  }
+  .dropdownMenu{
+    width: 15%;
+    top: 8%;
+    right: 0px;
+    font-size: 1.4rem;
+
+  }
+  .gallery{
+    height: 200px;
+  }
+  .tableTop{
+    top: 50%;
+    font-size: 2.5vh;
+  }
+  .tableMiddle{
+    top: 65%;
+    font-size: 2.5vh;
+  }
+  .tableBottom{
+    top: 80%;
+    font-size: 2.5vh;
+  }
+  /*Images*/
+  #qrCodeImg{
+    height: 400px;
+  }
+  #ship{
+    height: 400px;
+  }
+  .gallery img{
+    height: 80%;
+  }
+  .amount{
+    top: 88%;
+    font-size: 5vh;
+  }
+  img{
+    height: 180px;
+  }
+}
+@media(max-width: 1280px){
+  /*Body*/
+  body{
+      max-width: 1280px;
+  }
+  h1{
+    font-size: 5vh;
+  }
+  p{
+    font-size: 5em;
+  }
+  .btn {
+    top: 20px;
+    right: 25px;
+    font-size: 4vh;
+  }
+  .btnLeft {
+    top: 20px;
+    left: 25px;
+    font-size: 4vh;
+  }
+  .artBtn{
+    top: 200px;
+    font-size: 7vh;
+  }
+  /*Dropdown menu*/
+  #settingLogo{
+    height: 9%;
+    top: 5%;
+    right: 2.5%;
+  }
+  .dropdownMenu{
+    width: 15%;
+    top: 8%;
+    right: 0px;
+    font-size: 1.4rem;
+  }
+  .gallery{
+    height: 190px;
+  }
+  .tableTop{
+    top: 50%;
+    font-size: 2.5vh;
+  }
+  .tableMiddle{
+    top: 65%;
+    font-size: 2.5vh;
+  }
+  .tableBottom{
+    top: 80%;
+    font-size: 2.5vh;
+  }
+  /*Images*/
+  #qrCodeImg{
+    height: 400px;
+  }
+  #ship{
+    height: 400px;
+  }
+  .gallery img{
+    height: 80%;
+  }
+  .amount{
+    top: 88%;
+    font-size: 5vh;
+  }
+  img{
+    height: 170px;
+  }
+}
+@media(max-width: 1024px){
+  /*Body*/
+  body{
+      max-width: 1024px;
+  }
+  h1{
+    font-size: 5vh;
+  }
+  p{
+    font-size: 5em;
+  }
+  .btn {
+    top: 20px;
+    right: 25px;
+    font-size: 4vh;
+  }
+  .btnLeft {
+    top: 20px;
+    left: 25px;
+    font-size: 4vh;
+  }
+  .artBtn{
+    top: 200px;
+    font-size: 7vh;
+  }
+  /*Dropdown menu*/
+  #settingLogo{
+    height: 9%;
+    top: 5%;
+    right: 2.5%;
+  }
+  .dropdownMenu{
+    width: 20%;
+    top: 8%;
+    right: 0px;
+    font-size: 1.4rem;
+
+  }
+  .gallery{
+    height: 190px;
+  }
+  .tableTop{
+    top: 45%;
+    font-size: 2.5vh;
+  }
+  .tableMiddle{
+    top: 60%;
+    font-size: 2.5vh;
+  }
+  .tableBottom{
+    top: 75%;
+    font-size: 2.5vh;
+  }
+  /*Images*/
+  #qrCodeImg{
+    height: 400px;
+  }
+  #ship{
+    height: 400px;
+  }
+  .gallery img{
+    height: 80%;
+  }
+  .amount{
+    top: 85%;
+    font-size: 5vh;
+  }
+  img{
+    height: 120px;
+  }
+}
+@media(max-width: 768px){
+  /*Body*/
+  body{
+      max-width: 768px;
+  }
+  h1{
+    font-size: 5vh;
+  }
+  p{
+    font-size: 5em;
+  }
+  .btn {
+    top: 20px;
+    right: 25px;
+    font-size: 4vh;
+  }
+  .btnLeft {
+    top: 20px;
+    left: 25px;
+    font-size: 4vh;
+  }
+  .artBtn{
+    top: 200px;
+    font-size: 7vh;
+  }
+  /*Dropdown menu*/
+  #settingLogo{
+    height: 9%;
+    top: 5%;
+    right: 2.5%;
+  }
+  .dropdownMenu{
+    width: 25%;
+    top: 8%;
+    right: 0px;
+    font-size: 1.4rem;
+
+  }
+  .gallery{
+    height: 190px;
+  }
+  .tableTop{
+    top: 45%;
+    font-size: 2.5vh;
+  }
+  .tableMiddle{
+    top: 60%;
+    font-size: 2.5vh;
+  }
+  .tableBottom{
+    top: 75%;
+    font-size: 2.5vh;
+  }
+  /*Images*/
+  #qrCodeImg{
+    height: 400px;
+  }
+  #ship{
+    height: 400px;
+  }
+  .gallery img{
+    height: 80%;
+  }
+  .amount{
+    top: 85%;
+    font-size: 5vh;
+  }
+  img{
+    height: 100px;
+  }
+}
+@media(max-width: 640px){
+  body{
+      max-width: 640px;
+  }
+  h1{
+    font-size: 5vh;
+  }
+  p{
+    font-size: 5em;
+  }
+  .btn {
+    top: 20px;
+    right: 25px;
+    font-size: 4vh;
+  }
+  .btnLeft {
+    top: 20px;
+    left: 25px;
+    font-size: 4vh;
+  }
+  .artBtn{
+    top: 200px;
+    font-size: 7vh;
+  }
+  /*Dropdown menu*/
+  #settingLogo{
+    height: 9%;
+    top: 5%;
+    right: 2.5%;
+  }
+  .dropdownMenu{
+    width: 30%;
+    top: 8%;
+    right: 0px;
+    font-size: 1.4rem;
+
+  }
+  .gallery{
+    height: 190px;
+  }
+  .tableTop{
+    top: 45%;
+    font-size: 2.5vh;
+  }
+  .tableMiddle{
+    top: 60%;
+    font-size: 2.5vh;
+  }
+  .tableBottom{
+    top: 75%;
+    font-size: 2.5vh;
+  }
+  /*Images*/
+  #qrCodeImg{
+    height: 400px;
+  }
+  #ship{
+    height: 400px;
+  }
+  .gallery img{
+    height: 80%;
+  }
+  .amount{
+    top: 85%;
+    font-size: 5vh;
+  }
+  img{
+    height: 70px;
+  }
 }
