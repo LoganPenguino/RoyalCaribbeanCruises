@@ -22,7 +22,6 @@ body{
     padding: 5px 10px;
     box-shadow: -3px -3px black;
     background-color: var(--backColor);
-    border-radius: 10px;
     text-decoration: none;
     cursor: pointer;
     transition: all 0.5s ease;
@@ -40,7 +39,6 @@ body{
     padding: 5px 10px;
     box-shadow: -3px -3px black;
     background-color: var(--backColor);
-    border-radius: 10px;
     text-decoration: none;
     cursor: pointer;
     transition: all 0.5s ease;
@@ -221,38 +219,36 @@ input:checked ~ ul{
     padding: 5px;
 }
 @media(min-width: 1536px){
+  /*Body*/
   body{
       min-width: 1536px;
   }
-}
-@media(max-width: 1536px){
-  /*Body*/
-  body{
-      max-width: 1536px;
-  }
   h1{
-    font-size: 5vh;
+    font-size: 2.5vw;
   }
   p{
-    font-size: 5em;
+    font-size: 3vw;
   }
   .btn {
     top: 20px;
     right: 25px;
-    font-size: 4vh;
+    border-radius: 10px;
+    font-size: 2vw;
   }
   .btnLeft {
     top: 20px;
     left: 25px;
-    font-size: 4vh;
+    border-radius: 10px;
+    font-size: 2vw;
   }
   .artBtn{
     top: 200px;
-    font-size: 7vh;
+    font-size: 6vw;
   }
   /*Dropdown menu*/
   #settingLogo{
-    height: 9%;
+    width: 4%;
+    height: auto;
     top: 5%;
     right: 2.5%;
   }
@@ -268,62 +264,73 @@ input:checked ~ ul{
   }
   .tableTop{
     top: 50%;
-    font-size: 2.5vh;
+    font-size: 1.3vw;
   }
   .tableMiddle{
     top: 65%;
-    font-size: 2.5vh;
+    font-size: 1.3vw;
   }
   .tableBottom{
     top: 80%;
-    font-size: 2.5vh;
+    font-size: 1.3vw;
   }
   /*Images*/
   #qrCodeImg{
-    height: 400px;
+    width: 35%;
+    height: auto;
   }
   #ship{
-    height: 400px;
+    width: 50%;
+    height: auto;
   }
   .gallery img{
     height: 80%;
+    width: auto;
   }
   .amount{
     top: 88%;
-    font-size: 5vh;
+    font-size: 2.2vw;
   }
   img{
-    height: 180px;
+    width: 13%;
+    height: 80%;
+  }
+  .sideviewImg{
+    width: 30%;
+    height: 80%;
   }
 }
-@media(max-width: 1280px){
+@media(max-width: 1536px){
   /*Body*/
   body{
-      max-width: 1280px;
+      max-width: 1536px;
   }
   h1{
-    font-size: 5vh;
+    font-size: 2.5vw;
   }
   p{
-    font-size: 5em;
+    font-size: 3vw;
   }
   .btn {
     top: 20px;
     right: 25px;
-    font-size: 4vh;
+    border-radius: 10px;
+    font-size: 2vw;
   }
   .btnLeft {
     top: 20px;
     left: 25px;
-    font-size: 4vh;
+    border-radius: 10px;
+    font-size: 2vw;
   }
   .artBtn{
     top: 200px;
-    font-size: 7vh;
+    font-size: 6vw;
   }
   /*Dropdown menu*/
   #settingLogo{
-    height: 9%;
+    width: 4%;
+    height: auto;
     top: 5%;
     right: 2.5%;
   }
@@ -332,38 +339,129 @@ input:checked ~ ul{
     top: 8%;
     right: 0px;
     font-size: 1.4rem;
+
   }
   .gallery{
-    height: 190px;
+    height: 200px;
   }
   .tableTop{
     top: 50%;
-    font-size: 2.5vh;
+    font-size: 1.3vw;
   }
   .tableMiddle{
     top: 65%;
-    font-size: 2.5vh;
+    font-size: 1.3vw;
   }
   .tableBottom{
     top: 80%;
-    font-size: 2.5vh;
+    font-size: 1.3vw;
   }
   /*Images*/
   #qrCodeImg{
-    height: 400px;
+    width: 35%;
+    height: auto;
   }
   #ship{
-    height: 400px;
+    width: 50%;
+    height: auto;
   }
   .gallery img{
     height: 80%;
+    width: auto;
   }
   .amount{
     top: 88%;
-    font-size: 5vh;
+    font-size: 2.2vw;
   }
   img{
-    height: 170px;
+    width: 13%;
+    height: 80%;
+  }
+  .sideviewImg{
+    width: 30%;
+    height: 80%;
+  }
+}
+@media(max-width: 1280px){
+  /*Body*/
+  body{
+      max-width: 1280px;
+  }
+  h1{
+    font-size: 2.5vw;
+  }
+  p{
+    font-size: 3vw;
+  }
+  .btn {
+    top: 20px;
+    right: 25px;
+    border-radius: 10px;
+    font-size: 2vw;
+  }
+  .btnLeft {
+    top: 20px;
+    left: 25px;
+    border-radius: 10px;
+    font-size: 2vw;
+  }
+  .artBtn{
+    top: 200px;
+    font-size: 6vw;
+  }
+  /*Dropdown menu*/
+  #settingLogo{
+    width: 4%;
+    height: auto;
+    top: 5%;
+    right: 2.5%;
+  }
+  .dropdownMenu{
+    width: 15%;
+    top: 6%;
+    right: 0px;
+    font-size: 1.4rem;
+
+  }
+  .gallery{
+    height: 200px;
+  }
+  .tableTop{
+    top: 50%;
+    font-size: 1.3vw;
+  }
+  .tableMiddle{
+    top: 65%;
+    font-size: 1.3vw;
+  }
+  .tableBottom{
+    top: 80%;
+    font-size: 1.3vw;
+  }
+  /*Images*/
+  #qrCodeImg{
+    width: 35%;
+    height: auto;
+  }
+  #ship{
+    width: 50%;
+    height: auto;
+  }
+  .gallery img{
+    height: 80%;
+    width: auto;
+  }
+  .amount{
+    top: 88%;
+    font-size: 2.2vw;
+  }
+  img{
+    width: 13%;
+    height: 80%;
+  }
+  .sideviewImg{
+    width: 30%;
+    height: 80%;
   }
 }
 @media(max-width: 1024px){
@@ -372,69 +470,80 @@ input:checked ~ ul{
       max-width: 1024px;
   }
   h1{
-    font-size: 5vh;
+    font-size: 2.5vw;
   }
   p{
-    font-size: 5em;
+    font-size: 3vw;
   }
   .btn {
     top: 20px;
     right: 25px;
-    font-size: 4vh;
+    border-radius: 7px;
+    font-size: 2vw;
   }
   .btnLeft {
     top: 20px;
     left: 25px;
-    font-size: 4vh;
+    border-radius: 7px;
+    font-size: 2vw;
   }
   .artBtn{
     top: 200px;
-    font-size: 7vh;
+    font-size: 6vw;
   }
   /*Dropdown menu*/
   #settingLogo{
-    height: 9%;
+    width: 4%;
+    height: auto;
     top: 5%;
     right: 2.5%;
   }
   .dropdownMenu{
     width: 20%;
-    top: 8%;
+    top: 4%;
     right: 0px;
     font-size: 1.4rem;
 
   }
   .gallery{
-    height: 190px;
+    height: 200px;
   }
   .tableTop{
-    top: 45%;
-    font-size: 2.5vh;
+    top: 50%;
+    font-size: 1.3vw;
   }
   .tableMiddle{
-    top: 60%;
-    font-size: 2.5vh;
+    top: 65%;
+    font-size: 1.3vw;
   }
   .tableBottom{
-    top: 75%;
-    font-size: 2.5vh;
+    top: 80%;
+    font-size: 1.3vw;
   }
   /*Images*/
   #qrCodeImg{
-    height: 400px;
+    width: 35%;
+    height: auto;
   }
   #ship{
-    height: 400px;
+    width: 50%;
+    height: auto;
   }
   .gallery img{
     height: 80%;
+    width: auto;
   }
   .amount{
-    top: 85%;
-    font-size: 5vh;
+    top: 88%;
+    font-size: 2.2vw;
   }
   img{
-    height: 120px;
+    width: 13%;
+    height: 80%;
+  }
+  .sideviewImg{
+    width: 30%;
+    height: 80%;
   }
 }
 @media(max-width: 768px){
@@ -443,69 +552,80 @@ input:checked ~ ul{
       max-width: 768px;
   }
   h1{
-    font-size: 5vh;
+    font-size: 3vw;
   }
   p{
-    font-size: 5em;
+    font-size: 3vw;
   }
   .btn {
     top: 20px;
     right: 25px;
-    font-size: 4vh;
+    border-radius: 7px;
+    font-size: 2vw;
   }
   .btnLeft {
     top: 20px;
     left: 25px;
-    font-size: 4vh;
+    border-radius: 7px;
+    font-size: 2vw;
   }
   .artBtn{
     top: 200px;
-    font-size: 7vh;
+    font-size: 6vw;
   }
   /*Dropdown menu*/
   #settingLogo{
-    height: 9%;
+    width: 4%;
+    height: auto;
     top: 5%;
     right: 2.5%;
   }
   .dropdownMenu{
     width: 25%;
-    top: 8%;
+    top: 3%;
     right: 0px;
     font-size: 1.4rem;
 
   }
   .gallery{
-    height: 190px;
+    height: 200px;
   }
   .tableTop{
-    top: 45%;
-    font-size: 2.5vh;
+    top: 50%;
+    font-size: 1.3vw;
   }
   .tableMiddle{
-    top: 60%;
-    font-size: 2.5vh;
+    top: 65%;
+    font-size: 1.3vw;
   }
   .tableBottom{
-    top: 75%;
-    font-size: 2.5vh;
+    top: 80%;
+    font-size: 1.3vw;
   }
   /*Images*/
   #qrCodeImg{
-    height: 400px;
+    width: 35%;
+    height: auto;
   }
   #ship{
-    height: 400px;
+    width: 50%;
+    height: auto;
   }
   .gallery img{
     height: 80%;
+    width: auto;
   }
   .amount{
-    top: 85%;
-    font-size: 5vh;
+    top: 88%;
+    font-size: 2.2vw;
   }
   img{
-    height: 100px;
+    width: 13%;
+    height: 80%;
+  }
+  .sideviewImg{
+    width: 30%;
+    height: 80%;
   }
 }
 @media(max-width: 640px){
@@ -513,68 +633,79 @@ input:checked ~ ul{
       max-width: 640px;
   }
   h1{
-    font-size: 5vh;
+    font-size: 3.5vw;
   }
   p{
-    font-size: 5em;
+    font-size: 3vw;
   }
   .btn {
     top: 20px;
     right: 25px;
-    font-size: 4vh;
+    border-radius: 7px;
+    font-size: 2vw;
   }
   .btnLeft {
     top: 20px;
     left: 25px;
-    font-size: 4vh;
+    border-radius: 7px;
+    font-size: 2vw;
   }
   .artBtn{
     top: 200px;
-    font-size: 7vh;
+    font-size: 6vw;
   }
   /*Dropdown menu*/
   #settingLogo{
-    height: 9%;
+    width: 4%;
+    height: auto;
     top: 5%;
     right: 2.5%;
   }
   .dropdownMenu{
     width: 30%;
-    top: 8%;
+    top: 1.5%;
     right: 0px;
     font-size: 1.4rem;
 
   }
   .gallery{
-    height: 190px;
+    height: 200px;
   }
   .tableTop{
-    top: 45%;
-    font-size: 2.5vh;
+    top: 50%;
+    font-size: 1.3vw;
   }
   .tableMiddle{
-    top: 60%;
-    font-size: 2.5vh;
+    top: 65%;
+    font-size: 1.3vw;
   }
   .tableBottom{
-    top: 75%;
-    font-size: 2.5vh;
+    top: 80%;
+    font-size: 1.3vw;
   }
   /*Images*/
   #qrCodeImg{
-    height: 400px;
+    width: 35%;
+    height: auto;
   }
   #ship{
-    height: 270px;
+    width: 50%;
+    height: auto;
   }
   .gallery img{
     height: 80%;
+    width: auto;
   }
   .amount{
-    top: 85%;
-    font-size: 5vh;
+    top: 88%;
+    font-size: 2.2vw;
   }
   img{
-    height: 70px;
+    width: 13%;
+    height: 80%;
+  }
+  .sideviewImg{
+    width: 30%;
+    height: 80%;
   }
 }
