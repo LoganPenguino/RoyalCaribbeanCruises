@@ -145,6 +145,8 @@ a{
 }
 .topLi{
     list-style: none;
+    padding-left: 20px;
+    padding-right: 20px;
     text-decoration: none;
     background-color: var(--backColor);
     border: var(--normalBorder);
@@ -159,6 +161,8 @@ a{
 li{
     list-style: none;
     text-decoration: none;
+    padding-left: 20px;
+    padding-right: 20px;
     background-color: var(--backColor);
     border: var(--normalBorder);
     border-top: none;
@@ -226,9 +230,6 @@ input:checked ~ ul{
   h1{
     font-size: 2.5vw;
   }
-  p{
-    font-size: 3vw;
-  }
   .btn {
     top: 20px;
     right: 25px;
@@ -253,7 +254,6 @@ input:checked ~ ul{
     right: 2.5%;
   }
   .dropdownMenu{
-    width: 15%;
     top: 8%;
     right: 0px;
     font-size: 1.4rem;
@@ -308,9 +308,6 @@ input:checked ~ ul{
   h1{
     font-size: 2.5vw;
   }
-  p{
-    font-size: 3vw;
-  }
   .btn {
     top: 20px;
     right: 25px;
@@ -335,11 +332,9 @@ input:checked ~ ul{
     right: 2.5%;
   }
   .dropdownMenu{
-    width: 15%;
     top: 8%;
     right: 0px;
     font-size: 1.4rem;
-
   }
   .gallery{
     height: 200px;
@@ -390,9 +385,6 @@ input:checked ~ ul{
   h1{
     font-size: 2.5vw;
   }
-  p{
-    font-size: 3vw;
-  }
   .btn {
     top: 20px;
     right: 25px;
@@ -417,7 +409,6 @@ input:checked ~ ul{
     right: 2.5%;
   }
   .dropdownMenu{
-    width: 15%;
     top: 6%;
     right: 0px;
     font-size: 1.4rem;
@@ -427,15 +418,15 @@ input:checked ~ ul{
     height: 200px;
   }
   .tableTop{
-    top: 50%;
+    top: 45%;
     font-size: 1.3vw;
   }
   .tableMiddle{
-    top: 65%;
+    top: 60%;
     font-size: 1.3vw;
   }
   .tableBottom{
-    top: 80%;
+    top: 75%;
     font-size: 1.3vw;
   }
   /*Images*/
@@ -456,11 +447,11 @@ input:checked ~ ul{
     font-size: 2.2vw;
   }
   img{
-    width: 13%;
+    width: 17%;
     height: 80%;
   }
   .sideviewImg{
-    width: 30%;
+    width: 40%;
     height: 80%;
   }
 }
@@ -470,22 +461,19 @@ input:checked ~ ul{
       max-width: 1024px;
   }
   h1{
-    font-size: 2.5vw;
-  }
-  p{
-    font-size: 3vw;
+    font-size: 3.5vw;
   }
   .btn {
     top: 20px;
     right: 25px;
     border-radius: 7px;
-    font-size: 2vw;
+    font-size: 2.5vw;
   }
   .btnLeft {
     top: 20px;
     left: 25px;
     border-radius: 7px;
-    font-size: 2vw;
+    font-size: 2.5vw;
   }
   .artBtn{
     top: 200px;
@@ -499,7 +487,6 @@ input:checked ~ ul{
     right: 2.5%;
   }
   .dropdownMenu{
-    width: 20%;
     top: 4%;
     right: 0px;
     font-size: 1.4rem;
@@ -509,16 +496,16 @@ input:checked ~ ul{
     height: 200px;
   }
   .tableTop{
-    top: 50%;
-    font-size: 1.3vw;
+    top: 42%;
+    font-size: 1.5vw;
   }
   .tableMiddle{
-    top: 65%;
-    font-size: 1.3vw;
+    top: 57%;
+    font-size: 1.5vw;
   }
   .tableBottom{
-    top: 80%;
-    font-size: 1.3vw;
+    top: 72%;
+    font-size: 1.5vw;
   }
   /*Images*/
   #qrCodeImg{
@@ -534,15 +521,15 @@ input:checked ~ ul{
     width: auto;
   }
   .amount{
-    top: 88%;
-    font-size: 2.2vw;
+    top: 82%;
+    font-size: 3vw;
   }
   img{
-    width: 13%;
+    width: 17%;
     height: 80%;
   }
   .sideviewImg{
-    width: 30%;
+    width: 40%;
     height: 80%;
   }
 }
@@ -552,22 +539,19 @@ input:checked ~ ul{
       max-width: 768px;
   }
   h1{
-    font-size: 3vw;
-  }
-  p{
-    font-size: 3vw;
+    font-size: 4vw;
   }
   .btn {
     top: 20px;
     right: 25px;
     border-radius: 7px;
-    font-size: 2vw;
+    font-size: 3vw;
   }
   .btnLeft {
     top: 20px;
     left: 25px;
     border-radius: 7px;
-    font-size: 2vw;
+    font-size: 3vw;
   }
   .artBtn{
     top: 200px;
@@ -575,13 +559,12 @@ input:checked ~ ul{
   }
   /*Dropdown menu*/
   #settingLogo{
-    width: 4%;
+    width: 5%;
     height: auto;
     top: 5%;
     right: 2.5%;
   }
   .dropdownMenu{
-    width: 25%;
     top: 3%;
     right: 0px;
     font-size: 1.4rem;
@@ -591,16 +574,16 @@ input:checked ~ ul{
     height: 200px;
   }
   .tableTop{
-    top: 50%;
-    font-size: 1.3vw;
+    top: 40%;
+    font-size: 2vw;
   }
   .tableMiddle{
-    top: 65%;
-    font-size: 1.3vw;
+    top: 55%;
+    font-size: 2vw;
   }
   .tableBottom{
-    top: 80%;
-    font-size: 1.3vw;
+    top: 70%;
+    font-size: 2vw;
   }
   /*Images*/
   #qrCodeImg{
@@ -616,15 +599,15 @@ input:checked ~ ul{
     width: auto;
   }
   .amount{
-    top: 88%;
-    font-size: 2.2vw;
+    top: 80%;
+    font-size: 4vw;
   }
   img{
-    width: 13%;
+    width: 17%;
     height: 80%;
   }
   .sideviewImg{
-    width: 30%;
+    width: 40%;
     height: 80%;
   }
 }
@@ -633,22 +616,19 @@ input:checked ~ ul{
       max-width: 640px;
   }
   h1{
-    font-size: 3.5vw;
-  }
-  p{
-    font-size: 3vw;
+    font-size: 4vw;
   }
   .btn {
     top: 20px;
     right: 25px;
     border-radius: 7px;
-    font-size: 2vw;
+    font-size: 3vw;
   }
   .btnLeft {
     top: 20px;
     left: 25px;
     border-radius: 7px;
-    font-size: 2vw;
+    font-size: 3vw;
   }
   .artBtn{
     top: 200px;
@@ -662,7 +642,6 @@ input:checked ~ ul{
     right: 2.5%;
   }
   .dropdownMenu{
-    width: 30%;
     top: 1.5%;
     right: 0px;
     font-size: 1.4rem;
@@ -672,16 +651,16 @@ input:checked ~ ul{
     height: 200px;
   }
   .tableTop{
-    top: 50%;
-    font-size: 1.3vw;
+    top: 35%;
+    font-size: 2.1vw;
   }
   .tableMiddle{
-    top: 65%;
-    font-size: 1.3vw;
+    top: 50%;
+    font-size: 2.1vw;
   }
   .tableBottom{
-    top: 80%;
-    font-size: 1.3vw;
+    top: 65%;
+    font-size: 2.1vw;
   }
   /*Images*/
   #qrCodeImg{
@@ -697,11 +676,87 @@ input:checked ~ ul{
     width: auto;
   }
   .amount{
-    top: 88%;
-    font-size: 2.2vw;
+    top: 78%;
+    font-size: 4vw;
   }
   img{
-    width: 13%;
+    width: 17%;
+    height: 80%;
+  }
+  .sideviewImg{
+    width: 40%;
+    height: 80%;
+  }
+}
+@media(max-height: 400px){
+    body{
+      max-height: 400px;
+    }
+    h1{
+    font-size: 1.7vw;
+  }
+  .btn {
+    top: 20px;
+    right: 25px;
+    border-radius: 10px;
+    font-size: 1.5vw;
+  }
+  .btnLeft {
+    top: 20px;
+    left: 25px;
+    border-radius: 10px;
+    font-size: 1.5vw;
+  }
+  .artBtn{
+    top: 150px;
+    font-size: 4vw;
+  }
+  /*Dropdown menu*/
+  #settingLogo{
+    width: 4%;
+    height: auto;
+    top: 5%;
+    right: 2.5%;
+  }
+  .dropdownMenu{
+    top: 6%;
+    right: 0px;
+    font-size: 1.4rem;
+  }
+  .gallery{
+    height: 200px;
+  }
+  .tableTop{
+    top: 45%;
+    font-size: 1vw;
+  }
+  .tableMiddle{
+    top: 60%;
+    font-size: 1vw;
+  }
+  .tableBottom{
+    top: 75%;
+    font-size: 1vw;
+  }
+  /*Images*/
+  #qrCodeImg{
+    width: 28%;
+    height: auto;
+  }
+  #ship{
+    width: 50%;
+    height: auto;
+  }
+  .gallery img{
+    height: 80%;
+    width: auto;
+  }
+  .amount{
+    top: 86%;
+    font-size: 2.1vw;
+  }
+  img{
+    width: 10%;
     height: 80%;
   }
   .sideviewImg{
