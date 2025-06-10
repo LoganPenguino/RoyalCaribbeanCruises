@@ -703,13 +703,13 @@ input:checked ~ ul{
   }
   .btn {
     top: 20px;
-    right: 25px;
+    right: 15px;
     border-radius: 7px;
     font-size: 3vw;
   }
   .btnLeft {
     top: 20px;
-    left: 25px;
+    left: 15px;
     border-radius: 7px;
     font-size: 3vw;
   }
@@ -777,7 +777,7 @@ input:checked ~ ul{
       background-color: aqua;
     }
     h1{
-    font-size: 1.7vw;
+    font-size: 2vw;
   }
   .btn {
     top: 20px;
@@ -811,7 +811,7 @@ input:checked ~ ul{
     height: 200px;
   }
   .tableTop{
-    top: 45%;
+    top: 43%;
     font-size: 1vw;
   }
   .tableMiddle{
@@ -819,7 +819,7 @@ input:checked ~ ul{
     font-size: 1vw;
   }
   .tableBottom{
-    top: 75%;
+    top: 77%;
     font-size: 1vw;
   }
   /*Images*/
@@ -836,15 +836,15 @@ input:checked ~ ul{
     width: auto;
   }
   .amount{
-    top: 86%;
+    top: 87%;
     font-size: 2.1vw;
   }
   img{
-    width: 10%;
+    width: 15%;
     height: 80%;
   }
   .sideviewImg{
-    width: 30%;
+    width: 40%;
     height: 80%;
   }
 }
