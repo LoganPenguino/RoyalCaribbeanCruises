@@ -304,6 +304,7 @@ input:checked ~ ul{
   /*Body*/
   body{
       max-width: 1536px;
+      background-color: green;
   }
   h1{
     font-size: 2.5vw;
@@ -381,6 +382,7 @@ input:checked ~ ul{
   /*Body*/
   body{
       max-width: 1280px;
+      background-color: greenyellow;
   }
   h1{
     font-size: 2.5vw;
@@ -459,6 +461,7 @@ input:checked ~ ul{
   /*Body*/
   body{
       max-width: 1024px;
+      background-color: cadetblue;
   }
   h1{
     font-size: 3.5vw;
@@ -537,6 +540,7 @@ input:checked ~ ul{
   /*Body*/
   body{
       max-width: 768px;
+      background-color: aquamarine;
   }
   h1{
     font-size: 4vw;
@@ -614,6 +618,7 @@ input:checked ~ ul{
 @media(max-width: 640px){
   body{
       max-width: 640px;
+      background-color: blue;
   }
   h1{
     font-size: 4vw;
@@ -688,9 +693,88 @@ input:checked ~ ul{
     height: 80%;
   }
 }
-@media(max-height: 400px){
+@media(max-width: 475px){
+  body{
+      max-width: 640px;
+      background-color: cornflowerblue;
+  }
+  h1{
+    font-size: 4vw;
+  }
+  .btn {
+    top: 20px;
+    right: 25px;
+    border-radius: 7px;
+    font-size: 3vw;
+  }
+  .btnLeft {
+    top: 20px;
+    left: 25px;
+    border-radius: 7px;
+    font-size: 3vw;
+  }
+  .artBtn{
+    top: 200px;
+    font-size: 6vw;
+  }
+  /*Dropdown menu*/
+  #settingLogo{
+    width: 4%;
+    height: auto;
+    top: 5%;
+    right: 2.5%;
+  }
+  .dropdownMenu{
+    top: 1.5%;
+    right: 0px;
+    font-size: 1.4rem;
+
+  }
+  .gallery{
+    height: 200px;
+  }
+  .tableTop{
+    top: 35%;
+    font-size: 2.1vw;
+  }
+  .tableMiddle{
+    top: 50%;
+    font-size: 2.1vw;
+  }
+  .tableBottom{
+    top: 65%;
+    font-size: 2.1vw;
+  }
+  /*Images*/
+  #qrCodeImg{
+    width: 35%;
+    height: auto;
+  }
+  #ship{
+    width: 50%;
+    height: auto;
+  }
+  .gallery img{
+    height: 80%;
+    width: auto;
+  }
+  .amount{
+    top: 78%;
+    font-size: 4vw;
+  }
+  img{
+    width: 17%;
+    height: 80%;
+  }
+  .sideviewImg{
+    width: 40%;
+    height: 80%;
+  }
+}
+@media(max-height: 450px){
     body{
-      max-height: 400px;
+      max-height: 450px;
+      background-color: aqua;
     }
     h1{
     font-size: 1.7vw;
