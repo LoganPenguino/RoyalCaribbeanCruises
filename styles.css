@@ -641,7 +641,7 @@ input:checked ~ ul{
   }
   /*Dropdown menu*/
   #settingLogo{
-    width: 4%;
+    width: 6%;
     height: auto;
     top: 5%;
     right: 2.5%;
@@ -719,7 +719,7 @@ input:checked ~ ul{
   }
   /*Dropdown menu*/
   #settingLogo{
-    width: 4%;
+    width: 6%;
     height: auto;
     top: 5%;
     right: 2.5%;
