@@ -709,7 +709,7 @@ input:checked ~ ul{
   }
   .btnLeft {
     top: 15px;
-    left: 10px;
+    left: 20px;
     border-radius: 7px;
     font-size: 3vw;
   }
@@ -735,11 +735,11 @@ input:checked ~ ul{
   }
   .tableTop{
     top: 35%;
-    font-size: 1.7vw;
+    font-size: 1.8vw;
   }
   .tableMiddle{
     top: 50%;
-    font-size: 1.7vw;
+    font-size: 1.8vw;
   }
   .tableBottom{
     top: 65%;
