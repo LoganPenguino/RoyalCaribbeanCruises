@@ -702,14 +702,14 @@ input:checked ~ ul{
     font-size: 4vw;
   }
   .btn {
-    top: 20px;
-    right: 15px;
+    top: 15px;
+    right: 10px;
     border-radius: 7px;
     font-size: 3vw;
   }
   .btnLeft {
-    top: 20px;
-    left: 15px;
+    top: 15px;
+    left: 10px;
     border-radius: 7px;
     font-size: 3vw;
   }
