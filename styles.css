@@ -701,6 +701,9 @@ input:checked ~ ul{
   h1{
     font-size: 4vw;
   }
+  .h{
+    font-size: 3.7vw;
+  }
   .btn {
     top: 15px;
     right: 10px;
