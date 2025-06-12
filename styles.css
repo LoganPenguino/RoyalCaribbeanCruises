@@ -763,11 +763,11 @@ input:checked ~ ul{
     font-size: 4vw;
   }
   img{
-    width: 17%;
+    width: 25%;
     height: 80%;
   }
   .sideviewImg{
-    width: 40%;
+    width: 50%;
     height: 80%;
   }
 }
