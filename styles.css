@@ -218,7 +218,7 @@ input:checked ~ ul{
     background-color: var(--backColorTable);
     padding: 5px;
 }
-.tableBottom td{
+.tableBottom td{  
     background-color: var(--backColorTable);
     padding: 5px;
 }
@@ -490,7 +490,7 @@ input:checked ~ ul{
     right: 2.5%;
   }
   .dropdownMenu{
-    top: 4%;
+    top: 4%;  
     right: 0px;
     font-size: 1.4rem;
 
@@ -731,7 +731,7 @@ input:checked ~ ul{
 
   }
   .gallery{
-    height: 200px;
+    height: 175px;
   }
   .tableTop{
     top: 35%;
