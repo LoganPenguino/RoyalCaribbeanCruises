@@ -759,8 +759,8 @@ input:checked ~ ul{
     width: auto;
   }
   .amount{
-    top: 78%;
-    font-size: 4vw;
+    top: 65%;
+    font-size: 5vw;
   }
   img{
     width: 25%;
