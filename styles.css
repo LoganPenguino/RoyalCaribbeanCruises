@@ -734,15 +734,15 @@ input:checked ~ ul{
     height: 175px;
   }
   .tableTop{
-    top: 30%;
-    font-size: 1.8vw;
-  }
-  .tableMiddle{
     top: 40%;
     font-size: 1.8vw;
   }
-  .tableBottom{
+  .tableMiddle{
     top: 50%;
+    font-size: 1.8vw;
+  }
+  .tableBottom{
+    top: 60%;
     font-size: 1.7vw;
   }
   /*Images*/
