@@ -766,6 +766,7 @@ input:checked ~ ul{
     font-size: 5vw;
   }
   img{
+    top: 50px;
     width: 25%;
     height: 80%;
   }
