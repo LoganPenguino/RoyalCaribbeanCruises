@@ -706,7 +706,7 @@ input:checked ~ ul{
   }
   .btn {
     top: 15px;
-    right: 10px;
+    right: 5px;
     border-radius: 7px;
     font-size: 3vw;
   }
