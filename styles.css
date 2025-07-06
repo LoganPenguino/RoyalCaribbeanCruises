@@ -304,7 +304,6 @@ input:checked ~ ul{
   /*Body*/
   body{
       max-width: 1536px;
-      background-color: green;
   }
   h1{
     font-size: 2.5vw;
@@ -382,7 +381,6 @@ input:checked ~ ul{
   /*Body*/
   body{
       max-width: 1280px;
-      background-color: greenyellow;
   }
   h1{
     font-size: 2.5vw;
@@ -461,7 +459,6 @@ input:checked ~ ul{
   /*Body*/
   body{
       max-width: 1024px;
-      background-color: cadetblue;
   }
   h1{
     font-size: 3.5vw;
@@ -540,7 +537,6 @@ input:checked ~ ul{
   /*Body*/
   body{
       max-width: 768px;
-      background-color: aquamarine;
   }
   h1{
     font-size: 4vw;
@@ -618,7 +614,6 @@ input:checked ~ ul{
 @media(max-width: 640px){
   body{
       max-width: 640px;
-      background-color: blue;
   }
   h1{
     font-size: 4vw;
@@ -696,7 +691,6 @@ input:checked ~ ul{
 @media(max-width: 475px){
   body{
       max-width: 640px;
-      background-color: cornflowerblue;
   }
   h1{
     font-size: 4vw;
@@ -777,7 +771,6 @@ input:checked ~ ul{
 @media(max-height: 450px){
     body{
       max-height: 450px;
-      background-color: aqua;
     }
     h1{
     font-size: 2vw;
