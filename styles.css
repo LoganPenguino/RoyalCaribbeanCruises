@@ -1,4 +1,10 @@
 /*Body*/
+body, html{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
 :root{
     --normalBorder: 2px solid Black;
     --backColor: gray;
@@ -180,6 +186,31 @@ input{
 input:checked ~ ul{
     display: flex;
 }
+/*Dropdown USD*/
+.dropdownUSD{
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    padding: 5px;
+}
+.pCAD{
+  margin: 0px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+/*Dropdown knots*/
+.dropdownKM{
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    margin: 0px;
+    padding: 5px;
+}
+.sKNOTS{
+  margin: 0px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
 /*Tables*/
 .tableTop{
     position: absolute;
@@ -257,7 +288,6 @@ input:checked ~ ul{
     top: 8%;
     right: 0px;
     font-size: 1.4rem;
-
   }
   .gallery{
     height: 200px;
@@ -694,9 +724,6 @@ input:checked ~ ul{
   }
   h1{
     font-size: 4vw;
-  }
-  .h{
-    font-size: 3vw;
   }
   .btn {
     top: 15px;

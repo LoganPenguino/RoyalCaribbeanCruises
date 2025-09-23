@@ -9,7 +9,7 @@
     <link rel="shortcut icon" type="image/png" href="images/logo.png">
   </head>
   <body>
-    <div class="box"><h1 class="h">Mariner of the seas</h1></div>
+    <h1>Mariner of the seas</h1>
 
     <div class="box">
       <img src="images/marinerBowView.jpg" alt="mariner bow view" draggable="false">
@@ -41,18 +41,32 @@
     <div class="box">
     <table class="tableMiddle">
       <tr>
+        <td>Top speed</td>
         <td>Max pasengers</td>
         <td>Max crew member</td>
         <td>Number of rooms</td>
-        <td>Top speed</td>
         <td>Cost to build</td>
       </tr>
       <tr>
+        <td><label class="dropdownContainer" for="dropdownS">
+        <p class="sKNOTS">24 knots</p>
+        </label>
+        <input class="dropdownBox" type="checkbox" id="dropdownS">
+          <ul class="dropdownKM">
+            <p>44 km/h</p>
+            <p>27 mph</p>
+          </ul></td>
         <td>4 252</td>
         <td>1 185</td>
         <td>1 674</td>
-        <td>24 knots</td>
-        <td>$650 million</td>
+        <td><label class="dropdownContainer" for="dropdown">
+        <p class="pCAD">$900 million CAD</p>
+        </label>
+        <input class="dropdownBox" type="checkbox" id="dropdown">
+          <ul class="dropdownUSD">
+            <p>$650 million USD</p>
+          </ul></td>
+
       </tr>
     </table>
     </div>

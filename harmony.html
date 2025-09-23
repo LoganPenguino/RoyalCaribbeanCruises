@@ -9,7 +9,7 @@
     <link rel="shortcut icon" type="image/png" href="images/logo.png">
   </head>
   <body>
-    <div class="box"><h1 class="h">Harmony of the seas</h1></div>
+    <h1>Harmony of the seas</h1>
 
     <div class="box">
       <img src="images/harmonyBowView.jpg" alt="harmony bow view" draggable="false">
@@ -41,18 +41,31 @@
     <div class="box">
     <table class="tableMiddle">
       <tr>
+        <td>Top speed</td>
         <td>Max pasengers</td>
         <td>Max crew member</td>
         <td>Number of rooms</td>
-        <td>Top speed</td>
         <td>Cost to build</td>
       </tr>
       <tr>
+        <td><label class="dropdownContainer" for="dropdownS">
+        <p class="sKNOTS">25 knots</p>
+        </label>
+        <input class="dropdownBox" type="checkbox" id="dropdownS">
+          <ul class="dropdownKM">
+            <p>46 km/h</p>
+            <p>28 mph</p>
+          </ul></td>
         <td>6 687</td>
         <td>2 100</td>
         <td>2 747</td>
-        <td>25 knots</td>
-        <td>$1.35 billion</td>
+        <td><label class="dropdownContainer" for="dropdown">
+        <p class="pCAD">$1.8 billion CAD</p>
+        </label>
+        <input class="dropdownBox" type="checkbox" id="dropdown" name="dollars">
+          <ul class="dropdownUSD">
+            <p>$1.3 billion USD</p>
+          </ul></td>
       </tr>
     </table>
     </div>
