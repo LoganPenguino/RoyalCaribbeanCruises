@@ -211,6 +211,10 @@ input:checked ~ ul{
   padding-top: 5px;
   padding-bottom: 5px;
 }
+.USDtext{
+  position: relative;
+  left: 13%;
+}
 /*Tables*/
 .tableTop{
     position: absolute;
