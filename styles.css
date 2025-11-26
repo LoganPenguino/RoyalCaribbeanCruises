@@ -91,6 +91,10 @@ h3{
 img{
     border: var(--normalBorder);
 }
+.LOGOimg{
+    border: var(--normalBorder);
+    height: 10%;
+}
 a{
     text-decoration: none;
 
@@ -319,6 +323,10 @@ input:checked ~ ul{
     top: 88%;
     font-size: 2.2vw;
   }
+  .LOGOimg{
+    border: var(--normalBorder);
+    height: 10%;
+  }
   img{
     width: 13%;
     height: 80%;
@@ -395,6 +403,10 @@ input:checked ~ ul{
   .amount{
     top: 88%;
     font-size: 2.2vw;
+  }
+  .LOGOimg{
+    border: var(--normalBorder);
+    height: 10%;
   }
   img{
     width: 13%;
@@ -474,6 +486,10 @@ input:checked ~ ul{
     top: 88%;
     font-size: 2.2vw;
   }
+  .LOGOimg{
+    border: var(--normalBorder);
+    height: 10%;
+  }
   img{
     width: 17%;
     height: 80%;
@@ -551,6 +567,10 @@ input:checked ~ ul{
   .amount{
     top: 82%;
     font-size: 3vw;
+  }
+  .LOGOimg{
+    border: var(--normalBorder);
+    height: 10%;
   }
   img{
     width: 17%;
@@ -630,6 +650,10 @@ input:checked ~ ul{
     top: 80%;
     font-size: 4vw;
   }
+  .LOGOimg{
+    border: var(--normalBorder);
+    height: 10%;
+  }
   img{
     width: 17%;
     height: 80%;
@@ -706,6 +730,10 @@ input:checked ~ ul{
   .amount{
     top: 78%;
     font-size: 4vw;
+  }
+  .LOGOimg{
+    border: var(--normalBorder);
+    height: 10%;
   }
   img{
     width: 17%;
@@ -784,6 +812,10 @@ input:checked ~ ul{
     top: 65%;
     font-size: 5vw;
   }
+  .LOGOimg{
+    border: var(--normalBorder);
+    height: 10%;
+  }
   img{
     width: 25%;
     height: 80%;
@@ -860,6 +892,10 @@ input:checked ~ ul{
     top: 87%;
     font-size: 2.1vw;
   }
+  .LOGOimg{
+    border: var(--normalBorder);
+    height: 10%;
+}
   img{
     width: 15%;
     height: 80%;
