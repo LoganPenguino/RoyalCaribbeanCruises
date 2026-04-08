@@ -17,7 +17,7 @@ body{
     font-weight: bold;
 }
 .btn {
-    position: absolute;
+    position: fixed;
     color: black;
     padding: 5px 10px;
     box-shadow: -3px -3px black;
@@ -34,30 +34,11 @@ body{
     }
  }
  .btnLeft {
-    position: absolute;
+    position: fixed;
     color: black;
     padding: 5px 10px;
     box-shadow: -3px -3px black;
     background-color: var(--backColor);
-    text-decoration: none;
-    cursor: pointer;
-    transition: all 0.5s ease;
- 
-    &:hover,
-    &:focus,
-    &:focus-visible,
-    &:focus-within {
-       background-color: var(--backColorHover);
-    }
- }
- .artBtn{
-    position: relative;
-    color: black;
-    padding: 5px 10px;
-    text-align: center;
-    box-shadow: -3px -3px black;
-    background-color: var(--backColor);
-    border-radius: 10px;
     text-decoration: none;
     cursor: pointer;
     transition: all 0.5s ease;
@@ -132,7 +113,7 @@ a{
 }
 /*Dropdown*/
 #settingLogo{
-    position: absolute;
+    position: fixed;
     display: block;
     border: none;
 
@@ -195,6 +176,22 @@ input:checked ~ ul{
   margin: 0px;
   padding-top: 5px;
   padding-bottom: 5px;
+}
+/*Dropdown built*/
+.dropdownPC{
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    padding: 5px;
+}
+.pc{
+  margin: 0px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.PMCtext{
+  position: relative;
+  left: 13%;
 }
 /*Dropdown knots*/
 .dropdownKM{
@@ -299,11 +296,11 @@ input:checked ~ ul{
     font-size: 1.3vw;
   }
   .tableMiddle{
-    top: 65%;
+    top: 80%;
     font-size: 1.3vw;
   }
   .tableBottom{
-    top: 80%;
+    top: 65%;
     font-size: 1.3vw;
   }
   /*Images*/
@@ -380,11 +377,11 @@ input:checked ~ ul{
     font-size: 1.3vw;
   }
   .tableMiddle{
-    top: 65%;
+    top: 80%;
     font-size: 1.3vw;
   }
   .tableBottom{
-    top: 80%;
+    top: 65%;
     font-size: 1.3vw;
   }
   /*Images*/
@@ -462,11 +459,11 @@ input:checked ~ ul{
     font-size: 1.3vw;
   }
   .tableMiddle{
-    top: 60%;
+    top: 75%;
     font-size: 1.3vw;
   }
   .tableBottom{
-    top: 75%;
+    top: 60%;
     font-size: 1.3vw;
   }
   /*Images*/
@@ -544,11 +541,11 @@ input:checked ~ ul{
     font-size: 1.5vw;
   }
   .tableMiddle{
-    top: 57%;
+    top: 72%;
     font-size: 1.5vw;
   }
   .tableBottom{
-    top: 72%;
+    top: 57%;
     font-size: 1.5vw;
   }
   /*Images*/
@@ -626,11 +623,11 @@ input:checked ~ ul{
     font-size: 2vw;
   }
   .tableMiddle{
-    top: 55%;
+    top: 70%;
     font-size: 2vw;
   }
   .tableBottom{
-    top: 70%;
+    top: 55%;
     font-size: 2vw;
   }
   /*Images*/
@@ -707,11 +704,11 @@ input:checked ~ ul{
     font-size: 2.1vw;
   }
   .tableMiddle{
-    top: 50%;
+    top: 65%;
     font-size: 2.1vw;
   }
   .tableBottom{
-    top: 65%;
+    top: 50%;
     font-size: 2.1vw;
   }
   /*Images*/
@@ -788,11 +785,11 @@ input:checked ~ ul{
     font-size: 1.8vw;
   }
   .tableMiddle{
-    top: 50%;
+    top: 60%;
     font-size: 1.8vw;
   }
   .tableBottom{
-    top: 60%;
+    top: 50%;
     font-size: 1.7vw;
   }
   /*Images*/
@@ -868,11 +865,11 @@ input:checked ~ ul{
     font-size: 1vw;
   }
   .tableMiddle{
-    top: 60%;
+    top: 77%;
     font-size: 1vw;
   }
   .tableBottom{
-    top: 77%;
+    top: 60%;
     font-size: 1vw;
   }
   /*Images*/
